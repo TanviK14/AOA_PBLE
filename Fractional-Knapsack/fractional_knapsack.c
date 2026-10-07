@@ -163,7 +163,7 @@ void displaySelectedPackages()
     {
         if(s[i] > 0)
         {
-            printf("%d\t%d\t\t%.2f\t\t\t%.2f\n",i, originalW[i], s[i],ogW[i] * s[i]);
+            printf("%d\t%d\t\t%.2f\t\t\t%.2f\n",i, ogW[i], s[i],ogW[i] * s[i]);
         }
     }
 
